@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/:path*", "destination": "https://indigo-peak-lab.vercel.app/:path*" }
+  "routes": [
+    { "src": "/(.*)", "dest": "https://indigo-peak-lab.vercel.app/$1" }
   ]
 }
-
