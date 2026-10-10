@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://indigo-peak-lab.vercel.app/$1"
+    }
+  ]
+}
